@@ -1,0 +1,21 @@
+# 7) write a java program to print Fibonacci series                                                                                                               
+import java.util.*;
+class Main
+  {
+        public static void main(String[]args)
+        {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter the range:");
+            int n=sc.nextInt();
+            int firstnum=0;
+            int secondnum=1;
+            for(int i=1;i<=n;i++)
+            {
+                System.out.println(firstnum + ",");
+                int nextnum=firstnum+secondnum;
+                firstnum=secondnum;
+                secondnum=nextnum;
+                
+            }
+        }
+  }
