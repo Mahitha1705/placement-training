@@ -1,5 +1,6 @@
-# 2) write a java program to print addition of two numbers                                                                                                        import java.util.Scanner;
+# 2) write a java program to print addition of two numbers                                                                                                   
 
+import java.util.Scanner;
     public class Main{
         public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
