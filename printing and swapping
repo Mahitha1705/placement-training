@@ -1,0 +1,19 @@
+# 5) write a java program to print two numbers and swap it using third variable                                                           
+import java.util.Scanner;
+    public class Main {
+        public static void main(String[] args) {
+            int a = 10;  // first number
+            int b = 20;  // second number
+
+        System.out.println("Before swapping:");
+        System.out.println("a = " + a + ", b = " + b);
+
+        // Swapping using third variable
+        int temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("After swapping:");
+        System.out.println("a = " + a + ", b = " + b);
+    }
+}
